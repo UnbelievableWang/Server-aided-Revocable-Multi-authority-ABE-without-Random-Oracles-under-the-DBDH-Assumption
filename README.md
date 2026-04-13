@@ -5,7 +5,7 @@ A Java prototype implementation of a **Server-aided Revocable Multi-Authority At
 This project is organized in a modular way for clarity and debugging:
 
 - `MinSR` is implemented as an independent class for binary-tree-based logical revocation.
-- `SRMABE` invokes `MinSR` as a submodule and implements the main cryptographic workflow.
+- `SRMABE` invokes `MinSR` (`MinNR` in paper) as a submodule and implements the main cryptographic workflow.
 - `SRMABEDemo` provides a minimal runnable example for testing registration, path derivation, revocation, and the interaction between revocation state and transformation information generation.
 
 ## Overview
